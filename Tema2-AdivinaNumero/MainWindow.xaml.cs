@@ -30,7 +30,7 @@ namespace Tema2_AdivinaNumero
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-           
+
             int numeroIntroducido = Int32.Parse(numeroTextBox.Text);
             if (numeroIntroducido == random)
             {
@@ -53,9 +53,6 @@ namespace Tema2_AdivinaNumero
             resultadoTextBlock.Text = "";
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
 
-        }
     }
 }

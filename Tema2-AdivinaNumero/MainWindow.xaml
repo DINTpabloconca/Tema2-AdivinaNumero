@@ -8,7 +8,7 @@
         Title="MainWindow" Height="177.381" Width="480.952">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="21,42,0,0" TextWrapping="Wrap" Text="¿Qué número he pensado?" VerticalAlignment="Top"/>
-        <TextBox x:Name="numeroTextBox" HorizontalAlignment="Left" Height="23" Margin="188,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="numeroTextBox" HorizontalAlignment="Left" Height="23" Margin="188,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="comprobarButton" Content="Comprobar" HorizontalAlignment="Left" Margin="31,99,0,0" VerticalAlignment="Top" Width="133" Height="37" Click="Button_Click"/>
         <Button x:Name="reiniciarButton" Content="Reiniciar" HorizontalAlignment="Left" Margin="221,99,0,0" VerticalAlignment="Top" Width="140" Height="37" Click="Button_Click_1"/>
         <TextBlock x:Name="resultadoTextBlock" HorizontalAlignment="Left" Margin="361,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
